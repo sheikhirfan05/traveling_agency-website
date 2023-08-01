@@ -1,0 +1,160 @@
+@media only screen and (min-width: 200px) and (max-width: 767px){
+    html{
+        font-size: 80%;
+    }
+    #background{
+        height: 100vh;
+    }
+    #expert{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    #expert .title{
+        width: 100;
+    }
+    #expert .title h1{
+        max-width: 90%;
+        margin-left: 0px;
+        font-size: 2.2rem;
+    }
+    #expert .circle{
+        width: 35%;
+        height: 70%;
+        left: 6rem;
+        top: 31%;
+        
+    }
+    #expert .expert_text{
+        margin-top: 2rem;
+        width: 90%;
+    }
+    #expert .expert_text p{
+        max-width: 100%;
+    }
+    #expert button{
+        margin-bottom: 2rem;
+    }
+    #services{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    #services .img{
+        width: 80%;
+        display: inline-block;
+    }
+    #services .img3{
+        margin-bottom: 3rem;
+    }
+    #services .images{
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    #services .img_text{
+        display: none;
+    }
+    #box{
+        height: 9rem;
+        width: 100%;
+    }
+    #box .main_text h1{
+        font-size: 2.1rem;
+    }
+    #box .box_para{
+        width: 48%;
+    }
+    #box .box_para p{
+        font-size: .87rem;
+    }
+    #discount{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    #discount .discount_img{
+        width: 95%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    #discount .valley_img{
+        width: 100%;
+        height: 20rem;
+    }
+    #discount .discount_text{
+        width: 95%;
+    }
+    #discount .sub_text{
+        width: 115%;
+    }
+    #discount .discount_btn{
+        margin-bottom: 2rem;
+    }
+    #expert2{
+        flex-direction: column-reverse;
+        height: 30rem;
+    }
+    #expert2 .title {
+        width: 100%;
+        right: 10%;
+        height: 11rem;
+        align-items: flex-end;
+        margin-bottom: 1rem;
+    }
+    #expert2 .title h1{
+        font-size: 2rem;
+    }
+    #expert2 .expert_text{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 5rem;
+    }
+    #expert2 .expert_text p{
+        max-width: 95%;
+        position: relative;
+        margin-bottom: -6rem;
+        left: 2%;
+    }
+    #expert2 button{
+        position: absolute;
+        left: 2%;
+        bottom: -6rem;
+    }
+    #contact{
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 60rem;
+        width: 100%;
+    }
+    #contact .form{
+        text-align: center;
+        justify-content: start;
+        width: 95%;
+    }
+    #contact .form h1{
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+    #contact .info_img{
+        width: 100%;
+        justify-content: center;
+        margin-bottom: -2rem;
+    }
+    #contact .form input{
+        width: 100%;
+    }
+    #contact textarea{
+        width: 100%;
+    }
+    #footer{
+        display: block;
+        height: 3rem;
+        text-align: center;
+        display: flex;
+        
+    }
+}

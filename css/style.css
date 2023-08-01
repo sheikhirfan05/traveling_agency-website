@@ -1,0 +1,480 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 105%;
+}
+#background{
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.5)), url('../img/4k-mountain-0hb4gnwalnj51zsh.jpg');
+    background-size: cover;
+    background-position: right;
+    position: relative;
+}
+#background img{
+    width: 23rem;
+    margin-right: 2rem;
+}
+#background p{
+    color: #fff;
+    letter-spacing: .2rem;
+    font-size: .9rem;
+    margin-top: 3rem;
+}
+#expert{
+    width: 100%;
+    height: 39rem;
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.3)), url('../img/forest-mountains-3v.jpg');
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+}
+#expert .title{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.circle{
+    background-color: rgb(228, 148, 0);;
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    right: 10%;
+    z-index: -1;
+    border-top-left-radius: 10000%;
+    border-bottom-left-radius: 20%;
+    
+}
+#expert .title h1{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    max-width: 70%;
+    margin-top: 6rem;
+    margin-left: 8rem;
+}
+#expert .expert_text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+#expert .expert_text p{
+    color: #fff;
+    max-width: 80%;
+    margin-bottom: 3rem;
+    color: rgba(225,225,225,.9);
+    font-size: .9rem;
+    font-family: sans-serif;
+}
+#expert .expert_text .main_text{
+    margin-bottom: 1rem;
+}
+#expert button{
+    width: 6rem;
+    padding: .4rem;
+    font-size: .7rem;
+    cursor: pointer;    
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+#expert button:hover{
+    color: #000;
+    background: rgba(225,225,225,.8);
+}
+#services{
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+}
+#services{
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.3)), url('../img/Patrick-Hendry-iphone-x.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#services .img{
+    width: 17rem;
+    height: 21rem;
+    margin-top: 2.5rem;
+    padding: 2rem;
+    display: inline-block;
+    margin-left: 1rem;
+}
+#services .img1{
+    background: url('../img/pexelsphoto1624504.jpeg');
+    background-size: cover;
+    padding: 1rem;
+}
+#services .img2{
+    background: url('../img/pexelsphoto934718.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 1rem;
+    position: relative;
+}
+#services .img2 h1{
+    color: #fff;
+    font-size: 3.2rem;
+    font-family: sans-serif;
+    font-weight: 100;
+    position: absolute;
+    left: 1.5rem;
+    top: 1.5rem;
+}
+#services .img3{
+    background: url('../img/trees.jpeg');
+    background-size: cover;
+    padding: 1rem;
+}
+.img_text{
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2rem;
+    font-family: sans-serif;
+}
+.text h1{
+    margin-top: -3rem;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 100;
+    letter-spacing: .1rem;
+}
+.text p{
+    font-size: .7rem;
+    font-weight: 50;
+    word-spacing: .1rem;
+    line-height: 1rem;
+}
+.images .img:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: transform .6s;
+}
+.img_text .text1{
+    max-width: 18rem;
+}
+#box{
+    display: flex;
+    width: 100%;
+    height: 12rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fbd9a7;
+}
+#box .main_text{
+    width: 40%;
+}
+#box .main_text h1{
+    font-size: 3.3rem;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+#box .box_para{
+    width: 38%;
+}
+#box .box_para p{
+    font-size: 1rem;
+    font-weight: none;
+    word-spacing: .1rem;
+}
+#discount{
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.3)), url('../img/landscape-mountains-snow-sky-wallpaper-preview.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 39rem;
+    display: flex;
+    justify-content: space-between;
+}
+#discount .discount_img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#discount .valley_img{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.1)), url('../img/360_F_84474153_rhct7ORlppjpheFT2PsqW87WsDTbE6lv.jpg');
+    background-size: cover;
+    background-position: right;
+    width: 80%;
+    height: 70%;
+    position: relative;
+}
+#discount .valley_img h1{
+    color: #fff;
+    position: absolute;
+    bottom: 16%;
+    left: 20%;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+#discount .valley_img h1 span{
+    position: relative;
+    left: 30%;
+}
+#discount .discount_text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    font-family: sans-serif;
+}
+#discount .sub_text p{
+    color: #fff;
+    max-width: 80%;
+    margin-bottom: 3rem;
+    color: rgba(225,225,225,.9);
+    font-size: .9rem;
+    font-family: sans-serif;
+}
+#discount .discount_btn{
+    width: 6rem;
+    padding: .4rem;
+    font-size: .7rem;
+    cursor: pointer;    
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+#discount .discount_btn:hover{
+    color: #000;
+    background: rgba(225,225,225,.8);
+}
+#expert2{
+    width: 100%;
+    height: 39rem;
+    background: #000;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+}
+#expert2 .title{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 5%;
+}
+#expert2 .circle{
+    background-color: rgb(228, 148, 0);;
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    right: 10%;
+    z-index: -1;
+    border-top-left-radius: 10000%;
+    border-bottom-right-radius: 20%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+#expert2 .title h1{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    max-width: 70%;
+    margin-top: 6rem;
+    margin-left: 8rem;
+}
+#expert2 .expert_text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    position: relative;
+    bottom: 3rem;
+}
+#expert2 .expert_text p{
+    color: #fff;
+    max-width: 80%;
+    margin-bottom: 3rem;
+    color: rgba(225,225,225,.9);
+    font-size: .9rem;
+    font-family: sans-serif;
+    position: absolute;
+    right: 0;
+}
+#expert2 .mont{
+    margin-top: 8rem;
+}
+#expert2 .expert_text .main_text{
+    margin-bottom: 1rem;
+}
+#expert2 button{
+    width: 6rem;
+    padding: .4rem;
+    font-size: .7rem;
+    cursor: pointer;    
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+}
+#expert2 button:hover{
+    color: #000;
+    background: rgba(225,225,225,.8);
+}
+#contact{
+    width: 100%;
+    height: 45rem;
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.3)), url('../img/1000_F_185106827_pPAZgNmTdvEiNCztDIXGmrXtmUYAxGXd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+#contact .form{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#contact .form h1{
+    color: #fff;
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 3rem;
+    max-width: 50%;
+    margin-bottom: 3rem;
+}
+#contact .form input{
+    padding: .4rem;
+    width: 18rem;
+    background-color: transparent;
+    border: .1rem solid #fff;
+    margin-top: 1rem;
+    font-size: .9rem;
+    border-radius: none;
+    outline: none;
+    color: rgb(207, 207, 207);
+}
+#contact .form input::placeholder{
+    color: rgb(207, 207, 207);
+}
+#contact textarea{
+    background-color: transparent;
+    border: .1rem solid#fff;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-size: .9rem;
+    padding: .6rem;
+    outline: none;
+    border-radius: none;
+    color:rgb(207, 207, 207);
+}
+#contact textarea::placeholder{
+    color: rgb(207, 207, 207);
+}
+#contact .contact_btn{    
+    padding: .6rem;
+    width: 6rem;
+    font-size: .9rem;
+    margin-top: 1.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#contact .contact_btn:hover{
+    color: #000;
+    background: rgba(225,225,225,.8);
+}
+#contact .info_img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#contact .contact_img{
+    width: 80%;
+    height: 80%;
+    background: url('../img/img3.wallspic.com-atmosphere-nature-october-star-dawn-1440x2560.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 5%;
+}
+#contact .contact_img h1{
+    color: #fff;
+    font-size: 3.3rem;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    position: absolute;
+    top: 10%;
+    right: 2%;
+}
+#contact .contact_img p{
+    color: #fff;
+    margin-bottom: .5rem;
+}
+#contact .contact_img_para{
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 1rem;
+}
+#footer{
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    bottom: 0;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .7rem;
+    font-family: sans-serif;
+}
+#footer p{
+    margin-left: .3rem;
+    color: #fff;
+}
+#footer a{
+    margin-left: .3rem;
+    color: #fbd9a7;
+}
